@@ -13,20 +13,19 @@ const About = () => {
                 Crafting Digital Excellence
               </h3>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                We are a forward-thinking company dedicated to creating exceptional digital experiences. 
-                With years of expertise in web development, design, and digital strategy, we help businesses 
-                transform their ideas into powerful, user-friendly solutions.
+                We provide exceptional contracting service to the clients in U.A.E. We transcend the capabilities of a typical Construction/Interiors firm by delivering a level of expertise in and passion for Building Construction and Interiors that is simply without parallel.
+              </p>
+              <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+                We are a Construction company whose relationship with Clients extends beyond concrete and steel to a place where they have total peace of mind and receive a brand of service that continually exceeds their expectations.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Our team combines technical expertise with creative vision to deliver projects that not only 
-                meet but exceed expectations. We believe in building long-term partnerships with our clients 
-                and being part of their success story.
+                A team of seasoned professionals, who are on top of every little detail, take care of all the technical challenges to bring a smile to your face. You will be proud to have such people on your jobsites.
               </p>
             </div>
             
             <div className="space-y-6">
               <div className="bg-card p-6 rounded-lg shadow-card">
-                <h4 className="text-xl font-semibold text-foreground mb-2">50+</h4>
+                <h4 className="text-xl font-semibold text-foreground mb-2">100+</h4>
                 <p className="text-muted-foreground">Projects Completed</p>
               </div>
               <div className="bg-card p-6 rounded-lg shadow-card">
@@ -34,7 +33,7 @@ const About = () => {
                 <p className="text-muted-foreground">Client Satisfaction</p>
               </div>
               <div className="bg-card p-6 rounded-lg shadow-card">
-                <h4 className="text-xl font-semibold text-foreground mb-2">5+</h4>
+                <h4 className="text-xl font-semibold text-foreground mb-2">18+</h4>
                 <p className="text-muted-foreground">Years Experience</p>
               </div>
             </div>
