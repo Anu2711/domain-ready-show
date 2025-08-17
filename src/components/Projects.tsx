@@ -1,5 +1,4 @@
 import ProjectCard from "./ProjectCard";
-import project3 from "@/assets/project-3.jpg";
 
 const Projects = () => {
   const projects = [
@@ -12,10 +11,8 @@ const Projects = () => {
       image: "/lovable-uploads/cf025679-25c8-4fed-92ea-41dc2778d7af.png"
     },
     {
-      title: "Corporate Website",
-      description: "Professional corporate website with modern design, CMS integration, and optimized performance for lead generation.",
-      image: project3,
-      tags: ["Web Design", "CMS", "SEO", "Performance"]
+      title: "Interior Fitout Works for Indian Restaurant",
+      image: "/lovable-uploads/e4d58b1d-d934-4fd7-b31b-0d71fd47c9aa.png"
     }
   ];
 
@@ -36,9 +33,7 @@ const Projects = () => {
             <ProjectCard
               key={index}
               title={project.title}
-              description={project.description}
               image={project.image}
-              tags={project.tags}
             />
           ))}
         </div>
