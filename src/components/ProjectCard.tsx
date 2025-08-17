@@ -2,9 +2,9 @@ import { Card, CardContent } from "@/components/ui/card";
 
 interface ProjectCardProps {
   title: string;
-  description: string;
+  description?: string;
   image: string;
-  tags: string[];
+  tags?: string[];
 }
 
 const ProjectCard = ({ title, description, image, tags }: ProjectCardProps) => {
@@ -24,20 +24,24 @@ const ProjectCard = ({ title, description, image, tags }: ProjectCardProps) => {
           {title}
         </h3>
         
-        <p className="text-muted-foreground mb-4 leading-relaxed">
-          {description}
-        </p>
+        {description && (
+          <p className="text-muted-foreground mb-4 leading-relaxed">
+            {description}
+          </p>
+        )}
         
-        <div className="flex flex-wrap gap-2">
-          {tags.map((tag, index) => (
-            <span 
-              key={index}
-              className="px-3 py-1 bg-accent text-accent-foreground text-sm rounded-full"
-            >
-              {tag}
-            </span>
-          ))}
-        </div>
+        {tags && tags.length > 0 && (
+          <div className="flex flex-wrap gap-2">
+            {tags.map((tag, index) => (
+              <span 
+                key={index}
+                className="px-3 py-1 bg-accent text-accent-foreground text-sm rounded-full"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
       </CardContent>
     </Card>
   );

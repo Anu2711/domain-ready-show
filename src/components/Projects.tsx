@@ -1,21 +1,15 @@
 import ProjectCard from "./ProjectCard";
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
 
 const Projects = () => {
   const projects = [
     {
-      title: "Enterprise Dashboard",
-      description: "A comprehensive analytics dashboard built for enterprise clients, featuring real-time data visualization and advanced reporting capabilities.",
-      image: project1,
-      tags: ["React", "TypeScript", "Analytics", "Dashboard"]
+      title: "Villa at Dubai Hills",
+      image: "/lovable-uploads/eb285087-d727-406e-9798-5db26743def9.png"
     },
     {
-      title: "E-Commerce Platform",
-      description: "Modern e-commerce solution with seamless user experience, payment integration, and inventory management system.",
-      image: project2,
-      tags: ["Next.js", "Stripe", "E-commerce", "Mobile"]
+      title: "Penthouse Interior Fitout at Palm Jumeirah",
+      image: "/lovable-uploads/cf025679-25c8-4fed-92ea-41dc2778d7af.png"
     },
     {
       title: "Corporate Website",
@@ -33,8 +27,7 @@ const Projects = () => {
             Our Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Take a look at some of our recent work and see how we've helped businesses 
-            achieve their digital goals through innovative solutions.
+            Take a look at some of our recent work
           </p>
         </div>
 
