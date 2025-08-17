@@ -46,21 +46,7 @@ const Contact = () => {
               <h3 className="text-2xl font-semibold text-foreground mb-6">
                 Our Location
               </h3>
-              <div className="bg-muted rounded-lg p-6">
-                <p className="text-muted-foreground mb-4">
-                  502 Al Tayer Building<br />
-                  Al Raffa Area<br />
-                  Burdubai, Dubai, UAE
-                </p>
-                <a 
-                  href="https://share.google/MV3ubUwfCMuUYLP7x" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center text-primary hover:text-primary/80 font-medium"
-                >
-                  View on Google Maps →
-                </a>
-              </div>
+              <OfficeMap />
             </div>
           </div>
         </div>
