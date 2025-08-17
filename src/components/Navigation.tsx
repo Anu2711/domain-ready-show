@@ -10,8 +10,11 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-foreground">
-            Your Company
+          <div className="flex items-center gap-3">
+            <img src="/lovable-uploads/cca4c2c4-7d9d-4ce5-b989-568394f28699.png" alt="Metrotec Engineering Logo" className="h-8" />
+            <div className="text-2xl font-bold text-foreground">
+              Metrotec Engineering
+            </div>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">

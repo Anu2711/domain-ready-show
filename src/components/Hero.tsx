@@ -11,15 +11,15 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
-            Creating Digital
+            Crafting Digital
             <span className="block bg-gradient-hero bg-clip-text text-transparent">
-              Experiences
+              Excellence
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-            We craft innovative solutions that transform ideas into reality. 
-            Discover our portfolio of exceptional projects and see how we can help your business thrive.
+            We shape spaces across the UAE with excellence in construction and interior design. 
+            Explore our portfolio of successful projects and see how we bring elegance, functionality, and innovation to every detail.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
