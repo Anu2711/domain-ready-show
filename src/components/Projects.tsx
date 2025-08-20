@@ -13,6 +13,12 @@ const Projects = () => {
     {
       title: "Interior Fitout Works for Indian Restaurant",
       image: "/lovable-uploads/e4d58b1d-d934-4fd7-b31b-0d71fd47c9aa.png"
+    },
+    {
+      title: "Villa at Emirates Hills",
+      image: "/lovable-uploads/85886e66-deb3-409d-94b5-41cfca55b3c5.png",
+      hasDetails: true,
+      detailsLink: "/projects/villa-emirates-hills"
     }
   ];
 
@@ -34,6 +40,8 @@ const Projects = () => {
               key={index}
               title={project.title}
               image={project.image}
+              hasDetails={project.hasDetails}
+              detailsLink={project.detailsLink}
             />
           ))}
         </div>

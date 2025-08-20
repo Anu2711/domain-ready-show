@@ -6,6 +6,11 @@ const Hero = () => {
     element?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const scrollToAbout = () => {
+    const element = document.getElementById("about");
+    element?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-subtle">
       <div className="container mx-auto px-6 text-center">
@@ -31,6 +36,7 @@ const Hero = () => {
               View Our Work
             </Button>
             <Button 
+              onClick={scrollToAbout}
               variant="outline"
               size="lg"
               className="text-lg px-8 py-6 border-2 hover:bg-accent transition-all duration-300"

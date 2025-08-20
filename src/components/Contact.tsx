@@ -31,14 +31,6 @@ const Contact = () => {
                   <p className="text-muted-foreground">+971 4 3889771</p>
                 </div>
                 
-                <div>
-                  <h4 className="text-lg font-medium text-foreground mb-2">Office</h4>
-                  <p className="text-muted-foreground">
-                    502 Al Tayer Building<br />
-                    Al Raffa Area<br />
-                    Burdubai, Dubai, UAE
-                  </p>
-                </div>
               </div>
             </div>
 

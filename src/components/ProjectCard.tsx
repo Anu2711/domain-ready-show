@@ -1,13 +1,25 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 interface ProjectCardProps {
   title: string;
   description?: string;
   image: string;
   tags?: string[];
+  hasDetails?: boolean;
+  detailsLink?: string;
 }
 
-const ProjectCard = ({ title, description, image, tags }: ProjectCardProps) => {
+const ProjectCard = ({ title, description, image, tags, hasDetails, detailsLink }: ProjectCardProps) => {
+  const navigate = useNavigate();
+
+  const handleViewMore = () => {
+    if (detailsLink) {
+      navigate(detailsLink);
+    }
+  };
   return (
     <Card className="group overflow-hidden shadow-card hover:shadow-elegant transition-all duration-300 hover:-translate-y-2">
       <div className="relative overflow-hidden">
@@ -31,7 +43,7 @@ const ProjectCard = ({ title, description, image, tags }: ProjectCardProps) => {
         )}
         
         {tags && tags.length > 0 && (
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 mb-4">
             {tags.map((tag, index) => (
               <span 
                 key={index}
@@ -41,6 +53,17 @@ const ProjectCard = ({ title, description, image, tags }: ProjectCardProps) => {
               </span>
             ))}
           </div>
+        )}
+        
+        {hasDetails && (
+          <Button 
+            onClick={handleViewMore}
+            variant="outline"
+            className="w-full group"
+          >
+            View More
+            <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+          </Button>
         )}
       </CardContent>
     </Card>
