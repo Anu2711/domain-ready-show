@@ -8,7 +8,9 @@ const Projects = () => {
     },
     {
       title: "Penthouse Interior Fitout at Palm Jumeirah",
-      image: "/lovable-uploads/cf025679-25c8-4fed-92ea-41dc2778d7af.png"
+      image: "/lovable-uploads/cf025679-25c8-4fed-92ea-41dc2778d7af.png",
+      hasDetails: true,
+      detailsLink: "/projects/penthouse-palm-jumeirah"
     },
     {
       title: "Interior Fitout Works for Indian Restaurant",
