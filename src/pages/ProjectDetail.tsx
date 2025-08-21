@@ -1,10 +1,15 @@
 import { useParams, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 
 const ProjectDetail = () => {
   const { slug } = useParams();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   // Villa at Emirates Hills project images
   const projectImages = [

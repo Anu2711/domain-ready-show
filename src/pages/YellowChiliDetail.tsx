@@ -1,9 +1,14 @@
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 
 const YellowChiliDetail = () => {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   // Yellow Chili Restaurant project images
   const projectImages = [
