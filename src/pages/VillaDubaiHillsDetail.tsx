@@ -11,16 +11,16 @@ const VillaDubaiHillsDetail = () => {
   }, []);
 
   const projectImages = [
-    "/lovable-uploads/1a093977-ee95-4de4-b74e-42f9a9769ee7.png",
-    "/lovable-uploads/1afec573-65a5-4469-b7ef-ffdd18e714df.png",
-    "/lovable-uploads/1f85295f-a2df-46c9-b86a-d24f9325a954.png",
-    "/lovable-uploads/33c9d41e-da33-4e1e-a7eb-978cbe2ab477.png",
-    "/lovable-uploads/3ddc8776-ea24-4437-b6f3-d0bbebabfcc8.png",
-    "/lovable-uploads/4b60e59d-144c-470a-993c-95fcf52e059d.png",
-    "/lovable-uploads/50c5f524-8201-4707-ae6c-01a3f1f66973.png",
-    "/lovable-uploads/51b16cdf-21d5-4d95-a01f-475a0d14d76c.png",
-    "/lovable-uploads/8a7c0480-f366-45e6-b7b7-f94676680081.png",
-    "/lovable-uploads/8cd78c6f-ef0e-444e-8b63-a684ebf47884.png"
+    "/lovable-uploads/f5f493b6-8b27-42b1-90b6-f6a040556858.png",
+    "/lovable-uploads/ffbc12b3-4198-488c-9ca9-ed194ae91135.png",
+    "/lovable-uploads/afe97130-6a50-4bfe-aa49-9e763395fa9b.png",
+    "/lovable-uploads/d78ef156-d778-455f-b968-b5b06bbdba26.png",
+    "/lovable-uploads/3e1ebc6e-679e-4c24-bc49-4172b1afb554.png",
+    "/lovable-uploads/2e15b1b2-3094-4278-9c31-8f4a102a0cdd.png",
+    "/lovable-uploads/1d1ad5af-4a07-48c2-9ab3-2b553a4c69e8.png",
+    "/lovable-uploads/7b6772d8-25c6-4be6-b468-2be0624ec660.png",
+    "/lovable-uploads/2edf0a83-2e19-4269-b767-871d86678517.png",
+    "/lovable-uploads/9b9a2c91-f34c-4890-9aac-ae4546dc0bd7.png"
   ];
 
   const handleBack = () => {
