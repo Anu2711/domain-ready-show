@@ -1,4 +1,5 @@
 import OfficeMap from "./OfficeMap";
+import { Instagram, Linkedin } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -31,6 +32,29 @@ const Contact = () => {
                   <p className="text-muted-foreground">+971 4 3889771</p>
                 </div>
                 
+                <div>
+                  <h4 className="text-lg font-medium text-foreground mb-2">Follow Us</h4>
+                  <div className="flex gap-4">
+                    <a 
+                      href="https://www.instagram.com/metrotecllc/?hl=en" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      <Instagram className="h-5 w-5" />
+                      <span>Instagram</span>
+                    </a>
+                    <a 
+                      href="https://www.linkedin.com/company/metrotec-engineering-l-l-c/posts/?feedView=all" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      <Linkedin className="h-5 w-5" />
+                      <span>LinkedIn</span>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
 

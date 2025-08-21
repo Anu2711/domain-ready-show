@@ -27,6 +27,12 @@ const Projects = () => {
       image: "/lovable-uploads/5173706d-6292-47e5-9662-b5d3ac58a2c0.png",
       hasDetails: true,
       detailsLink: "/projects/yellow-chili-restaurant"
+    },
+    {
+      title: "Refurbishment of Villa in Lakes",
+      image: "/lovable-uploads/dbbefca3-b952-44b9-90ca-f3cca33e5328.png",
+      hasDetails: true,
+      detailsLink: "/projects/villa-lakes-refurbishment"
     }
   ];
 
