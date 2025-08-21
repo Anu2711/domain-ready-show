@@ -21,6 +21,12 @@ const Projects = () => {
       image: "/lovable-uploads/85886e66-deb3-409d-94b5-41cfca55b3c5.png",
       hasDetails: true,
       detailsLink: "/projects/villa-emirates-hills"
+    },
+    {
+      title: "Fitout works for yellow chili restaurant",
+      image: "/lovable-uploads/5173706d-6292-47e5-9662-b5d3ac58a2c0.png",
+      hasDetails: true,
+      detailsLink: "/projects/yellow-chili-restaurant"
     }
   ];
 
