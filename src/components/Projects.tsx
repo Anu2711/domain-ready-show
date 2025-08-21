@@ -4,7 +4,9 @@ const Projects = () => {
   const projects = [
     {
       title: "Villa at Dubai Hills",
-      image: "/lovable-uploads/eb285087-d727-406e-9798-5db26743def9.png"
+      image: "/lovable-uploads/eb285087-d727-406e-9798-5db26743def9.png",
+      hasDetails: true,
+      detailsLink: "/projects/villa-dubai-hills"
     },
     {
       title: "Penthouse Interior Fitout at Palm Jumeirah",
