@@ -10,7 +10,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="text-left">
               <h3 className="text-2xl font-semibold text-foreground mb-4">
-                Crafting Digital Excellence
+                Building Beyond Expectations
               </h3>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                 We provide exceptional contracting service to the clients in U.A.E. We transcend the capabilities of a typical Construction/Interiors firm by delivering a level of expertise in and passion for Building Construction and Interiors that is simply without parallel.
