@@ -69,7 +69,7 @@ const Contact = () => {
                   Burdubai, Dubai, UAE
                 </p>
                 <a 
-                  href="https://share.google/MV3ubUwfCMuUYLP7x" 
+                  href="https://share.google/XwaU2TE4R69apTJKM" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center text-primary hover:text-primary/80 font-medium"
