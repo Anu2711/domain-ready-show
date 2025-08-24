@@ -12,8 +12,8 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-subtle">
-      <div className="container mx-auto px-6 text-center">
+    <section id="home" className="min-h-screen bg-gradient-subtle py-20">
+      <div className="container mx-auto px-6 text-center pt-16">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
             Building Beyond
