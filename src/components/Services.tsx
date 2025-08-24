@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 const buildingContractingImg = "/lovable-uploads/318c3364-3d07-48ca-9ff8-8e7d21726bc9.png";
 const commercialInteriorsImg = "/lovable-uploads/3ccaed86-9005-4f03-a9de-7cf327f90593.png";
 const refurbishmentImg = "/lovable-uploads/5c9d065a-cbfc-4d89-8093-621218f23018.png";
@@ -5,19 +7,19 @@ const refurbishmentImg = "/lovable-uploads/5c9d065a-cbfc-4d89-8093-621218f23018.
 const Services = () => {
   const services = [
     {
-      title: "Building Contracting",
+      title: "BUILDING CONTRACTING",
       description: "Expert construction of villas and G+4 buildings, where quality and reliability come standard.",
       image: buildingContractingImg,
       alt: "Modern apartment building construction"
     },
     {
-      title: "Commercial Interiors", 
+      title: "COMMERCIAL INTERIORS", 
       description: "Transforming commercial spaces into elegant, efficient, and inspiring environments.",
       image: commercialInteriorsImg,
       alt: "Commercial interior design for restaurant"
     },
     {
-      title: "Refurbishment & Modernization",
+      title: "REFURBISHMENT & MODERNIZATION",
       description: "From small renovations to complete overhauls, we modernize spaces to match today's lifestyle and business needs.",
       image: refurbishmentImg,
       alt: "Modern bedroom refurbishment with contemporary design"
@@ -27,7 +29,7 @@ const Services = () => {
   return (
     <section id="services" className="py-20 bg-background">
       <div className="container mx-auto px-6">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               Our Services
@@ -37,24 +39,37 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="space-y-20">
             {services.map((service, index) => (
-              <div key={index} className="group">
-                <div className="bg-card rounded-lg overflow-hidden shadow-card hover:shadow-lg transition-all duration-300">
-                  <div className="aspect-[4/3] overflow-hidden">
+              <div key={index} className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? 'lg:grid-flow-col-dense' : ''}`}>
+                <div className={`${index % 2 === 1 ? 'lg:col-start-2' : ''}`}>
+                  <div className="aspect-[4/3] overflow-hidden rounded-lg">
                     <img 
                       src={service.image} 
                       alt={service.alt}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      className="w-full h-full object-cover"
                     />
                   </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-semibold text-foreground mb-3">
-                      {service.title}
-                    </h3>
-                    <p className="text-muted-foreground leading-relaxed">
-                      {service.description}
-                    </p>
+                </div>
+                <div className={`${index % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}`}>
+                  <div className="space-y-6">
+                    <div>
+                      <p className="text-sm font-medium text-muted-foreground mb-2 tracking-wider">
+                        SERVICES
+                      </p>
+                      <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+                        {service.title}
+                      </h3>
+                      <p className="text-lg text-muted-foreground leading-relaxed">
+                        {service.description}
+                      </p>
+                    </div>
+                    <Button 
+                      variant="outline"
+                      className="bg-foreground text-background hover:bg-foreground/90 border-foreground"
+                    >
+                      Learn More
+                    </Button>
                   </div>
                 </div>
               </div>
