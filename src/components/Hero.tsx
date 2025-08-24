@@ -27,7 +27,7 @@ const Hero = () => {
             Explore our portfolio of successful projects and see how we bring elegance, functionality, and innovation to every detail.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button 
               onClick={scrollToProjects}
               size="lg"
@@ -43,6 +43,14 @@ const Hero = () => {
             >
               Learn More
             </Button>
+          </div>
+          
+          <div className="max-w-5xl mx-auto mt-8">
+            <img 
+              src="/lovable-uploads/05a50e98-63b3-49b6-a4b5-11e8265aa01c.png" 
+              alt="Metrotec Engineering LLC - Luxury interior staircase design showcasing our construction and design expertise"
+              className="w-full h-auto rounded-lg shadow-elegant"
+            />
           </div>
         </div>
       </div>
