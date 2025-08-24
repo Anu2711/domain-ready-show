@@ -41,8 +41,8 @@ const Services = () => {
 
           <div className="space-y-20">
             {services.map((service, index) => (
-              <div key={index} className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? 'lg:grid-flow-col-dense' : ''}`}>
-                <div className={`${index % 2 === 1 ? 'lg:col-start-2' : ''}`}>
+              <div key={index} className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
                   <div className="aspect-[4/3] overflow-hidden rounded-lg">
                     <img 
                       src={service.image} 
@@ -51,7 +51,7 @@ const Services = () => {
                     />
                   </div>
                 </div>
-                <div className={`${index % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}`}>
+                <div>
                   <div className="space-y-6">
                     <div>
                       <p className="text-sm font-medium text-muted-foreground mb-2 tracking-wider">
